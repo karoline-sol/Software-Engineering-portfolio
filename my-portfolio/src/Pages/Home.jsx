@@ -10,14 +10,18 @@ export default function Home() {
           <h1>
             Hi, I’m <span className="highlight">Caroline Soliman</span>
           </h1>
-          <h2>UX Designer & Front-End Developer</h2>
+          <h2>Front-End Developer</h2>
           <p>
-            I design and build user-centered digital experiences that blend
-            clean design with functional code. My focus is on creating intuitive
-            interfaces that make complex interactions feel effortless.
+            I'm passionate about creating efficient, user-friendly web applications 
+            that solve real-world problems. With expertise in JavaScript, React, 
+            and modern web technologies, I bring ideas to life through code.
+
           </p>
           <a href="/portfolio" className="btn">
             View My Work
+          </a>
+          <a href='/contact' className="btn">
+            Get In Touch
           </a>
         </div>
 
