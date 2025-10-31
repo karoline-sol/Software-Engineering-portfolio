@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import "../styles/Contact.css";
 
 export default function Contact() {
@@ -31,14 +32,9 @@ export default function Contact() {
             💼 LinkedIn
           </a>
 
-          <a
-            href="/resume.pdf"
-            className="contact-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="/resume" className="contact-link">
             📄 View Resume
-          </a>
+          </Link>
         </div>
       </div>
     </section>

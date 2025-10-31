@@ -40,3 +40,8 @@
 .nav a:hover {
   color: #0077ff;
 }
+
+.footer{
+  display: flex;
+  justify-content: center;
+}

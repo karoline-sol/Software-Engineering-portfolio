@@ -3,7 +3,21 @@
   align-items: center;
   min-height: 85vh;
   padding: 4rem 8rem;
-  background-color: #f8f9fa; /* Light neutral background */
+  background-color: #f8f9fa; 
+  opacity: 0;
+  transform: translateX(100px);
+  animation: slideIn 1.2s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity:0;
+    transform: translateX(100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .contact-container {
