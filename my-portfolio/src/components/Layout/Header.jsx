@@ -6,11 +6,11 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-container">
-        <div className="logo">Caroline Soliman</div>
+        <div className="logo">Portfolio</div>
         <nav className="nav">
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/portfolio">Projects</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>

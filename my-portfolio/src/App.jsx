@@ -4,11 +4,14 @@ import Header from "./components/Layout/Header.jsx"
 import Home from "./pages/Home.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import Contact from "./pages/Contact.jsx";
-import Navigation from "./components/Layout/Navigation.jsx";
 import Footer from "./components/Layout/Footer.jsx";
-import "./styles/Header.css"
-import "./styles/contact.css"
+//css imports
 import "./styles/global.css"
+import "./styles/Header.css"
+import "./styles/projectgallery.css"
+import "./styles/projectcard.css"
+import "./styles/contact.css"
+
 
 function App() {
   return (

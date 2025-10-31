@@ -3,23 +3,15 @@ import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
-    <nav className="bg-white shadow-md py-3 px-6 flex justify-end items-center gap-8">
-      <Link
-        to="/"
-        className="text-gray-800 font-semibold hover:text-blue-600 transition-colors duration-300"
-      >
-        Home
-      </Link>
-      <Link
-        to="/portfolio"
-        className="text-gray-800 font-semibold hover:text-blue-600 transition-colors duration-300"
-      >
+    <nav>
+      <Link to="/">
+        Home</Link>
+     
+      <Link to="/portfolio">
         Portfolio
       </Link>
-      <Link
-        to="/contact"
-        className="text-gray-800 font-semibold hover:text-blue-600 transition-colors duration-300"
-      >
+      
+      <Link to="/contact">
         Contact
       </Link>
     </nav>
