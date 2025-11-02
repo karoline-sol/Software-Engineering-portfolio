@@ -6,11 +6,10 @@ import Portfolio from "./pages/Portfolio.jsx";
 import Contact from "./pages/Contact.jsx";
 import Resume from "./components/Contact/Resume.jsx"
 import Footer from "./components/Layout/Footer.jsx";
-import {projects} from "./data/projects.js"
+import { projects } from "./data/projects.js"
 //css imports
 import "./styles/global.css"
 import "./styles/Header.css"
-import "./styles/theme.css"
 import "./styles/portfolio.css"
 import "./styles/contact.css"
 
@@ -32,6 +31,8 @@ function App() {
     </Router>
   );
 }
+
+
 
 export default App;
 
