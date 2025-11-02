@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"
+
 import "../styles/Contact.css";
 
 export default function Contact() {
@@ -12,6 +13,7 @@ export default function Contact() {
           collaboration opportunities. Feel free to reach out and let’s make
           something great together!
         </p>
+
 
         <div className="contact-links">
           <a

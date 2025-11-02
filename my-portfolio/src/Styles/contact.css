@@ -7,7 +7,12 @@
   opacity: 0;
   transform: translateX(100px);
   animation: slideIn 1.2s ease-out forwards;
+  background-color: var(--bg-color);
+  color: var(--text-color)
 }
+
+
+
 
 @keyframes slideIn {
   from {
@@ -29,6 +34,7 @@
   font-weight: 700;
   color: #111;
   margin-bottom: 1rem;
+  color: var(--text-color);
 }
 
 .contact p {
@@ -36,6 +42,8 @@
   color: #555;
   line-height: 1.6;
   margin-bottom: 2rem;
+  color: var(--text-color);
+  opacity: 0.8;
 }
 
 .contact-links {

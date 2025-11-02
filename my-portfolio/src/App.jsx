@@ -13,6 +13,8 @@ import "./styles/global.css"
 import "./styles/Header.css"
 import "./styles/portfolio.css"
 import "./styles/contact.css"
+import "./styles/resume.css"
+
 
 export const ThemeContext = createContext();
 
