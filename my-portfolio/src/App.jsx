@@ -1,4 +1,5 @@
-import React from 'react'
+
+import React , { createContext, useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Layout/Header.jsx"
 import Home from "./pages/Home.jsx";
@@ -13,9 +14,30 @@ import "./styles/Header.css"
 import "./styles/portfolio.css"
 import "./styles/contact.css"
 
+export const ThemeContext = createContext();
 
 function App() {
+   const [theme, settheme] = useState('light');
+
+   useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      settheme(savedTheme);
+      document.body.setAttribute("data-theme", savedTheme);
+    }
+   } , []);
+  
+   useEffect(() => {
+    document.body.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+   }, [theme]);
+
+   const toggleTheme = () => 
+    settheme((prev) => (prev === "light" ? "dark" : "light"))
+
+      
   return (
+    <ThemeContext.Provider value={{theme , toggleTheme}}>
     <Router>
       <Header />
       <main>
@@ -27,8 +49,8 @@ function App() {
         </Routes>
       </main>
       <Footer />
-      {/* <ThemeToggle /> */}
     </Router>
+    </ThemeContext.Provider>
   );
 }
 

@@ -24,7 +24,7 @@ export const projects = [
       title: "Dragon-Realms",
       description: "Users can create and customize dragons using TypeScript, store them in local storage, and manage their collection through the app.",
       image: Dragonrealm,
-      link: "https://github.com/karoline-sol/Dragon-Realms",
+      link: "https://karoline-sol.github.io/Dragon-Realms/",
     },
     {
       id: 4,
