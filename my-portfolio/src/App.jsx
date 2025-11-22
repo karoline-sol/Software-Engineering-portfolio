@@ -40,7 +40,7 @@ function App() {
       
   return (
     <ThemeContext.Provider value={{theme , toggleTheme}}>
-    <Router basename="/Software-Engineering-portfolio/">
+    <Router basename="/">
       <Header />
       <main>
         <Routes>
