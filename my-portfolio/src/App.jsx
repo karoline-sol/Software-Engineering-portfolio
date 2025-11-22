@@ -1,19 +1,19 @@
 
 import React , { createContext, useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "~/components/Layout/Header.jsx"
-import Home from "~/pages/Home.jsx";
-import Portfolio from "~/pages/Portfolio.jsx";
-import Contact from "~/pages/Contact.jsx";
-import Resume from "~/components/Contact/Resume.jsx"
-import Footer from "~/components/Layout/Footer.jsx";
-//import { projects } from "~/data/projects.js"
+import Header from "./components/Layout/Header.jsx"
+import Home from "./pages/Home.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import Contact from "./pages/Contact.jsx";
+import Resume from "./components/Contact/Resume.jsx"
+import Footer from "./components/Layout/Footer.jsx";
+//import { projects } from "./data/projects.js"
 //css imports
-import "~/styles/global.css"
-import "~/styles/Header.css"
-import "~/styles/portfolio.css"
-import "~/styles/contact.css"
-import "~/styles/resume.css"
+import "./styles/global.css"
+import "./styles/Header.css"
+import "./styles/portfolio.css"
+import "./styles/contact.css"
+import "./styles/resume.css"
 
 
 export const ThemeContext = createContext();
