@@ -1,6 +1,6 @@
 import React from "react"
-import "../styles/Home.css"
-import profileimg from '../assets/profileimg.png'
+import "~/styles/Home.css"
+import profileimg from '~/assets/profileimg.png'
 export default function Home() {
   return (
     
