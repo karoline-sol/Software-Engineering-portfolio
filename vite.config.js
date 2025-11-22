@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()]  [tailwindcss()],
     resolve: {
       alias: {
-        '~': '/my-portfolio/src'
+        '~': isProd ? 'my-portfolio/src' : '/my-portfolio/src'
       }
     }
   }
