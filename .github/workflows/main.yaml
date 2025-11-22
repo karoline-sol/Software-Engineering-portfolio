@@ -41,7 +41,7 @@ jobs:
         run: npm ci
       - name: Build
         run: VITE_MODE=production npm run build
-        working-directory: ./my-portfolio/src
+        working-directory: ${{ github.GITHUB_WORKSPACE }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
