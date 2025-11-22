@@ -4,13 +4,14 @@ import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig(({ mode }) => {
   const isProd = mode === 'production';
+  const githubPath = process.env.GITHUB_WORKSPACE;
 
   return {
     base: isProd ? '/Software-Engineering-portfolio/' : '/',
     plugins: [react()]  [tailwindcss()],
     resolve: {
       alias: {
-        '~': isProd ? 'home/runner/work/Software-Engineering-portfolio/Software-Engineering-portfolio/my-portfolio/src' : '/my-portfolio/src'
+        '~': isProd ? `${githubPath}/my-portfolio/src` : '/my-portfolio/src'
       }
     }
   }
