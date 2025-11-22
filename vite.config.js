@@ -6,11 +6,11 @@ export default defineConfig(({ mode }) => {
   const isProd = mode === 'production';
 
   return {
-    base: '/',
+    base: isProd ? '/Software-Engineering-portfolio/' : '/',
     plugins: [react()]  [tailwindcss()],
     resolve: {
       alias: {
-        '~': isProd ? 'Software-Engineering-portfolio/my-portfolio/src' : '/my-portfolio/src'
+        '~': '/my-portfolio/src'
       }
     }
   }
