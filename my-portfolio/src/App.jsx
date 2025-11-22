@@ -7,7 +7,7 @@ import Portfolio from "./pages/Portfolio.jsx";
 import Contact from "./pages/Contact.jsx";
 import Resume from "./components/Contact/Resume.jsx"
 import Footer from "./components/Layout/Footer.jsx";
-import { projects } from "./data/projects.js"
+//import { projects } from "./data/projects.js"
 //css imports
 import "./styles/global.css"
 import "./styles/Header.css"
@@ -40,7 +40,7 @@ function App() {
       
   return (
     <ThemeContext.Provider value={{theme , toggleTheme}}>
-    <Router>
+    <Router basename="/Software-Engineering-portfolio/">
       <Header />
       <main>
         <Routes>

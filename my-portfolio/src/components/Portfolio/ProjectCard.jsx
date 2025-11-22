@@ -1,7 +1,7 @@
 import React from "react"
 import "../../styles/portfolio.css"
 
-export default function ProjectCard({ title, description, image, link }) {
+export default function ProjectCard({ title, description, image, link,repo }) {
   return (
     <div className="project-card">
       {image && (
@@ -18,7 +18,21 @@ export default function ProjectCard({ title, description, image, link }) {
             className="project-link"
           >
             View Project →
+            
           </a>
+        )}
+
+        {repo && (
+          <a
+           href={repo}
+           target='_blank'
+           rel="noopener noreferrer"
+           className="project-link"
+           >
+           
+            GitHub
+
+           </a>
         )}
       </div>
     </div>

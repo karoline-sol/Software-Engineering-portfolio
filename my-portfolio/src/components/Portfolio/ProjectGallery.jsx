@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectCard from "../Portfolio/ProjectCard"
+import ProjectCard from "./ProjectCard"
 import { projects } from '../../data/projects'
 import "../../styles/portfolio.css"
 

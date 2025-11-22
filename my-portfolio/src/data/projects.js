@@ -3,6 +3,7 @@ import Bloggen from "../assets/Bloggen.jpg"
 import Dragonrealm from"../assets/dragonrealm.jpg"
 import Charactergallery from "../assets/charactergallery.jpg"
 import Runeofchance from "../assets/runeofchance.jpg"
+import ttc from "../assets/ttc.jpg"
 
 export const projects = [
     {
@@ -11,6 +12,7 @@ export const projects = [
       description: "A simple interactive web game built with JavaScript allowing users to create a character, collect runes, and track progress.",
       image: Runeofchance,
       link: "https://karoline-sol.github.io/Rune-of-Chance/",
+      repo:"https://github.com/karoline-sol/Rune-of-Chance",
     },
     { 
       id: 2,
@@ -18,6 +20,7 @@ export const projects = [
       description: "A JavaScript application allowing users to create and display character cards using localStorage, so characters remain visible even after refreshing the page.",
       image: Charactergallery,
       link: "https://karoline-sol.github.io/Character-Gallery/",
+      repo:"https://github.com/karoline-sol/Character-Gallery",
     },
     {
       id: 3,
@@ -25,6 +28,7 @@ export const projects = [
       description: "Users can create and customize dragons using TypeScript, store them in local storage, and manage their collection through the app.",
       image: Dragonrealm,
       link: "https://karoline-sol.github.io/Dragon-Realms/",
+      repo:"https://github.com/karoline-sol/Dragon-Realms"
     },
     {
       id: 4,
@@ -32,13 +36,26 @@ export const projects = [
       description: "A static blog generator built with Node.js, EJS, and Markdown. It reads Markdown files from your content folder, converts them into HTML, and outputs a complete static website automatically.",
       image: Bloggen,
       link: "https://karoline-sol.github.io/Blog-Generator/",
+      repo:"https://github.com/karoline-sol/Blog-Generator"
     },
+
     {
       id: 5,
       title: "CodeCaddy",
       description: "a project that integrates Google Books API into a JavaScript or React application that allows users to search for books, view details by ID, and test API connectivity.",
       image: codeCaddyImg,
-      link: "https://github.com/karoline-sol/Codecaddy",
+      link: "https://karoline-sol.github.io/Codecaddy/",
+      repo: "https://github.com/karoline-sol/Codecaddy",
+      
+    },
+
+    {
+      id: 6,
+      title: "Tiffany Town Car",
+      description: "A sleek and responsive React + TypeScript transportation booking app built for a luxury town car service. ",
+      image: ttc,
+      link: "https://github.com/karoline-sol/Tiffany-Town-Car",
+      
     },
   ]
 
