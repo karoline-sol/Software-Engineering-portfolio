@@ -1,0 +1,156 @@
+/* ------------------------------
+   Resume Section Layout
+------------------------------ */
+.resume-section {
+  padding: 4rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.resume-container {
+  width: 100%;
+  max-width: 900px;
+  line-height: 1.6;
+}
+
+/* ------------------------------
+   Header
+------------------------------ */
+.resume-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.resume-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.resume-header h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.resume-contact p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin: 0.2rem 0;
+}
+
+/* ------------------------------
+   Section Headings
+------------------------------ */
+.resume-section-block {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section-block h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: var(--text-color);
+  border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+  padding-bottom: 0.3rem;
+}
+
+/* ------------------------------
+   Job Entries
+------------------------------ */
+.resume-job {
+  margin-bottom: 1.5rem;
+}
+
+.resume-job h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.resume-job p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.resume-job ul {
+  list-style: disc inside;
+  margin-left: 1rem;
+  font-size: 0.95rem;
+  
+  
+}
+
+.resume-job ul li {
+  margin-bottom: 0.4rem;
+  
+}
+
+/* ------------------------------
+   Education Section
+------------------------------ */
+.resume-education p {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.resume-education ul {
+  list-style: circle inside;
+  margin-left: 1rem;
+}
+
+.resume-education li {
+  margin-bottom: 0.4rem;
+}
+
+/* ------------------------------
+   Skills Lists
+------------------------------ */
+.resume-section-block ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.4rem 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.resume-section-block ul li {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ------------------------------
+   Links
+------------------------------ */
+a {
+  color: var(--link-color, #5b8ef7);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------
+   Responsive Design
+------------------------------ */
+@media (max-width: 600px) {
+  .resume-section {
+    padding: 3rem 1rem;
+  }
+
+  .resume-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .resume-section-block h3 {
+    font-size: 1.15rem;
+  }
+}
