@@ -1,5 +1,6 @@
 import React from "react"
 import "../Styles/Home.css"
+import { Link } from "react-router-dom"
 import profileimg from '../../src/assets/profileimg.png'
 export default function Home() {
   return (
@@ -17,12 +18,12 @@ export default function Home() {
             and modern web technologies, I bring ideas to life through code.
 
           </p>
-          <a href="/portfolio" className="btn">
+          <Link to="/portfolio" className="btn">
             View My Work
-          </a>
-          <a href='/contact' className="btn">
+          </Link>
+          <Link to='/contact' className="btn">
             Get In Touch
-          </a>
+          </Link>
         </div>
 
         <div className="profile-img">
