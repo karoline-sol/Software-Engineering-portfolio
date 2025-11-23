@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-import "~/Styles/Contact.css";
+import "../Styles/Contact.css";
 
 export default function Contact() {
   return (

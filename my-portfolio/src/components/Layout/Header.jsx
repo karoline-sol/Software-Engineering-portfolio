@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import "~/Styles/Header.css";
-import { ThemeContext } from "~/App";
+import "../../Styles/Header.css";
+import { ThemeContext } from "../../App";
 
 
 export default function Header() {

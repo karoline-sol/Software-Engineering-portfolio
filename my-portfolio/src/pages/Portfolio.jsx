@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectGallery from "~/components/Portfolio/ProjectGallery"
+import ProjectGallery from "../components/Portfolio/ProjectGallery"
 
 
 export default function Portfolio() {
