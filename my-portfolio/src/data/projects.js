@@ -1,9 +1,9 @@
-import codeCaddyImg from "~/assets/codecaddy.jpg"
-import Bloggen from "~/assets/Bloggen.jpg"
-import Dragonrealm from"~/assets/dragonrealm.jpg"
+import codeCaddyImg from "../assets/codecaddy.jpg"
+import Bloggen from "../assets/Bloggen.jpg"
+import Dragonrealm from"../assets/dragonrealm.jpg"
 import Charactergallery from "../assets/Charactergallery.jpg"
-import Runeofchance from "~/assets/runeofchance.jpg"
-import ttc from "~/assets/ttc.jpg"
+import Runeofchance from "../assets/runeofchance.jpg"
+import ttc from "../assets/ttc.jpg"
 
 export const projects = [
     {
