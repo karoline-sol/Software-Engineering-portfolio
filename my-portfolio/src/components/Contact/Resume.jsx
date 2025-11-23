@@ -1,5 +1,5 @@
 import React from "react";
-import "~/styles/resume.css";
+import "~/Styles/resume.css";
 
 export default function Resume() {
   return (

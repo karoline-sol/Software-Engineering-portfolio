@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectCard from "~/components/ProjectCard"
 import { projects } from '~/data/projects'
-import "~/styles/portfolio.css"
+import "~/Styles/portfolio.css"
 
 export default function ProjectGallery() {
   return (
