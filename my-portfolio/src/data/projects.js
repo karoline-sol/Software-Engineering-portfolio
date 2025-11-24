@@ -54,7 +54,8 @@ export const projects = [
       title: "Tiffany Town Car",
       description: "A sleek and responsive React + TypeScript transportation booking app built for a luxury town car service. ",
       image: ttc,
-      link: "https://github.com/karoline-sol/Tiffany-Town-Car",
+      link: "https://karoline-sol.github.io/Tiffany-Town-Car/",
+      repo: "https://github.com/karoline-sol/Tiffany-Town-Car",
       
     },
   ]
