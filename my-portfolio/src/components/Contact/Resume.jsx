@@ -1,146 +1,131 @@
 import React from "react";
 import "../../Styles/resume.css";
 
+
 export default function Resume() {
   return (
-    <section className="resume-section">
-      <div className="resume-container">
-        {/* Header */}
-        <header className="resume-header">
-          <h1>Caroline Soliman</h1>
-          <h2>UX Designer | Front-end Developer</h2>
-          
-          <div className="resume-contact">
-            <p>📞 321-324-6139</p>
-            <p>✉️ karoline.soliman@gmail.com</p>
-            <p>📍 7175 SW 88th Ln, Ocala, FL 34476</p>
-          </div>
-        </header>
+    <div className="resume-container">
+      <header className="resume-header">
+        <h1>Caroline Soliman</h1>
+        <p>
+         Orlando, FL · (321)-324-6139 
+        </p>
+      </header>
 
-       
+      <section>
+        <h2>SUMMARY</h2>
+        <p>
+          Ambitious Front-End Developer & UX Designer with strong foundations in JavaScript,
+          TypeScript, React, and scalable UI design. Passionate about building fast, accessible,
+          user‑focused products. Experienced in designing and developing end‑to‑end features,
+          integrating APIs, and improving usability through research‑backed design decisions.
+          Demonstrated ability to learn quickly, build polished interfaces, and solve complex
+          problems—seeking a software engineering Frontend role where I can contribute to impactful
+          products used by millions.
+        </p>
+      </section>
 
-        {/* Experience */}
-        <section className="resume-section-block">
-          <h3>Experience</h3>
+      <section>
+        <h2>TECHNICAL SKILLS</h2>
+        <ul>
+          <li><strong>Front-End:</strong> HTML · CSS · JavaScript · React · React-TypeScript · TypeScript · APIs · Responsive Design</li>
+          <li><strong>UX/UI:</strong> Figma · Wireframing · Prototyping · User Flows · Visual Design · Design Psychology · Usability Testing</li>
+          <li><strong>Tools:</strong> Git/GitHub · Whimsical · OpenAI API · Figma</li>
+        </ul>
+      </section>
 
-          <div className="resume-job">
-            <p>
-              <strong>Front-End Developer Course</strong> — Aug 2025 – Nov 2025
-            </p>
-            <ul>
-              <li>Learned HTML, CSS, JavaScript</li>
-              <li>React & React TypeScript</li>
-              <li>TypeScript, Node.js</li>
-              <li>OpenAI & API Key integration</li>
-            </ul>
+      <section>
+        <h2>PROJECTS</h2>
 
-            <h4>Freelance UX Designer — June 2023 – Present</h4>
-            <ul>
-              <li>UX/UI Design Certification</li>
-              <li>
-                Portfolio:{" "}
-                <a
-                  href="https://uxfol.io/carolinesoliman"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  uxfol.io/carolinesoliman
-                </a>
-              </li>
-            </ul>
-
-            <h5>Projects:</h5>
-            <ul>
-              <li>
-                <strong>FitSync:</strong> Designed a user-friendly fitness app
-                focused on personalized workout plans and progress tracking.
-                Conducted UX research, user interviews, and usability testing to
-                identify pain points. Created wireframes and prototypes using
-                Figma, emphasizing responsive design and accessibility.
-              </li>
-              <li>
-                <strong>Trevi:</strong> Created an e-commerce fashion app that
-                enhances the shopping experience through intuitive navigation
-                and personalized recommendations. Led the UI/UX design process
-                from concept to final prototype, focusing on color psychology,
-                typography, and visual hierarchy.
-              </li>
-              <li>
-                <strong>Tiffany Town Car Redesign:</strong> Redesigned a
-                transportation company’s website to improve user experience and
-                accessibility for booking services. Conducted user research to
-                inform design decisions, updated information architecture, and
-                delivered high-fidelity prototypes using Figma.
-              </li>
-            </ul>
-          </div>
-
-          <div className="resume-job">
-            <h4>Teacher — Seminole County Public Schools / Creative World School</h4>
-            <p>May 2021 – May 2023</p>
-            <ul>
-              <li>Maintained an organized classroom environment</li>
-              <li>
-                Collaborated with teachers to deliver curriculum effectively and
-                timely
-              </li>
-              <li>
-                Attended meetings to discuss student progress/issues and
-                implemented improvement plans
-              </li>
-            </ul>
-          </div>
-
-          <div className="resume-job">
-            <h4>Claims Specialist — Titan Technologies</h4>
-            <p>April 2020 – October 2020</p>
-            <ul>
-              <li>Delivered excellent customer service</li>
-              <li>
-                Performed administrative tasks with a high degree of accuracy
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        {/* Education */}
-        <section className="resume-section-block">
-          <h3>Education</h3>
-
-          <div className="resume-education">
-            <p>
-              <strong>University of Central Florida</strong> — Psychology Degree
-              (B.S.C.), 2019
-            </p>
-            
-          </div>
-        </section>
-
-        {/* Skills */}
-        <section className="resume-section-block">
-          <h3>Skills</h3>
+        <div className="project">
+          <h3>Tiffany Town Car (React + TypeScript)</h3>
           <ul>
-            <li>Figma (Software)</li>
-            <li>Wireframing</li>
-            <li>Prototyping</li>
-            <li>User Interface Design</li>
-            <li>User Experience Design</li>
-            <li>User Research</li>
+            <li>Built a responsive multi-step booking form with reusable component architecture.</li>
+            <li>Simplified onboarding with validation rules and guided workflows.</li>
+            <li>Implemented mobile-first design for accessibility and faster task completion.</li>
           </ul>
-        </section>
+        </div>
 
-        {/* Soft Skills */}
-        <section className="resume-section-block">
-          <h3>Soft Skills</h3>
+        <div className="project">
+          <h3>Rune-of-Chance (JavaScript Web Game)</h3>
           <ul>
-            <li>Flexible and Adaptive</li>
-            <li>Organized</li>
-            <li>Time Management</li>
-            <li>Good Team Player</li>
+            <li>Engineered modular JavaScript game functions for smoother UI interactions.</li>
+            <li>Improved engagement with dynamic UI updates and animated game states.</li>
+            <li>Streamlined game logic and reduced repeated functions.</li>
           </ul>
-        </section>
-      </div>
-    </section>
+        </div>
+
+        <div className="project">
+          <h3>Character-Gallery (JavaScript + LocalStorage)</h3>
+          <ul>
+            <li>Developed persistent character system using LocalStorage.</li>
+            <li>Enhanced form validation for improved accuracy.</li>
+            <li>Designed clean and organized UI for readability.</li>
+          </ul>
+        </div>
+
+        <div className="project">
+          <h3>Dragon-Realms (TypeScript App)</h3>
+          <ul>
+            <li>Built structured TypeScript system using interfaces and strong typing.</li>
+            <li>Reduced errors with clear data models and validation.</li>
+            <li>Designed responsive UI for desktop and mobile.</li>
+          </ul>
+        </div>
+
+        <div className="project">
+          <h3>Blog-Generator (Node.js + EJS + Markdown)</h3>
+          <ul>
+            <li>Automated static-page creation with Node.js scripting.</li>
+            <li>Used templating for consistent branding and UI.</li>
+            <li>Improved workflow by converting Markdown to styled HTML.</li>
+          </ul>
+        </div>
+
+        <div className="project">
+          <h3>CodeCaddy (React + Google Books API)</h3>
+          <ul>
+            <li>Integrated Google Books API for real-time search and detailed views.</li>
+            <li>Optimized data fetching and reduced load times.</li>
+            <li>Designed clean search UI to improve discoverability.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>EXPERIENCE</h2>
+        <h3>Freelance UX/UI Designer — Orlando, FL (Dec 2023 – Present)</h3>
+        <ul>
+          <li>Designed logos and responsive interfaces for startups such as Tiffany Town Car & Aiquilibrio.</li>
+          <li>Created user flows, wireframes, and prototypes improving task clarity.</li>
+          <li>Delivered polished UI components and HTML/CSS layouts with accessibility best practices.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>EDUCATION</h2>
+        <h3>Split‑Stack Software Development Program — UCF (Aug 2025 – Nov 2025)</h3>
+        <p>Front-end development: HTML, CSS, JavaScript, React, TypeScript, APIs, Node basics.</p>
+        
+
+        <h3>UX/UI Design Certification — Entry Level (Nov 2023 – Jan 2024)</h3>
+        <p>UX fundamentals, research, prototyping, UI design, typography.</p>
+        <p>
+            UX Portfolio:{" "}
+         <a
+            href="https://uxfolio.io/carolinesoliman"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+           uxfolio.io/carolinesoliman
+         </a>
+</p>
+
+
+        <h3>B.S. Psychology — University of Central Florida (2017–2019)</h3>
+        <p>Studied cognition, behavior, decision‑making, applied to UX.</p>
+      </section>
+    </div>
   );
 }
 
