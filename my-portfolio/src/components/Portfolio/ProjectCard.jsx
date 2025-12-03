@@ -1,7 +1,7 @@
 import React from "react"
 import "../../Styles/portfolio.css"
 
-export default function ProjectCard({ title, description, image, link,repo }) {
+export default function ProjectCard({ title, description, image, link, repo, techstack }) {
   return (
     <div className="project-card">
       {image && (
@@ -10,6 +10,11 @@ export default function ProjectCard({ title, description, image, link,repo }) {
       <div className="project-content">
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
+        { techstack && (
+          <p className="techstack">
+            <strong>Tech Stack:</strong> {techstack.join(".")}
+          </p>
+        )}
         {link && (
           <a
             href={link}
