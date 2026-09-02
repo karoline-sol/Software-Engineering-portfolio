@@ -2,7 +2,7 @@ import codeCaddyImg from "../assets/codecaddy.jpg"
 import Bloggen from "../assets/Bloggen.jpg"
 import Dragonrealm from "../assets/dragonrealm.jpg"
 import Charactergallery from "../assets/Charactergallery.jpg"
-import Runeofchance from "../assets/runeofchance.jpg"
+
 import weatherApp from "../assets/weather-app2.png"
 import ttc from "../assets/ttc.jpg"
 
@@ -26,7 +26,7 @@ export const projects = [
       link: "https://karoline-sol.github.io/Character-Gallery/",
       repo:"https://github.com/karoline-sol/Character-Gallery",
     },
-    
+
     {
       id: 3,
       title: "Dragon-Realms",
