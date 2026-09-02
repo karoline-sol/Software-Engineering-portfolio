@@ -1,20 +1,22 @@
 import codeCaddyImg from "../assets/codecaddy.jpg"
 import Bloggen from "../assets/Bloggen.jpg"
-import Dragonrealm from"../assets/dragonrealm.jpg"
+import Dragonrealm from "../assets/dragonrealm.jpg"
 import Charactergallery from "../assets/Charactergallery.jpg"
 import Runeofchance from "../assets/runeofchance.jpg"
+import weatherApp from "../assets/weather-app2.png"
 import ttc from "../assets/ttc.jpg"
 
 export const projects = [
-    {
+    
+   {
       id: 1,
-      title: "Rune-of-Chance",
-      description: "A simple interactive web game built with JavaScript allowing users to create a character, collect runes, and track progress.",
-      techstack: ["HTML","CSS","Javascript"],
-      image: Runeofchance,
-      link: "https://karoline-sol.github.io/Rune-of-Chance/",
-      repo:"https://github.com/karoline-sol/Rune-of-Chance",
+      title: "Weather-App",
+      description: "A weather application that allows users to search for the current weather conditions of any city worldwide, providing real-time data and forecasts.",
+      image: weatherApp,
+      link: "https://karoline-sol.github.io/Weather-App/",
+      repo:"https://github.com/karoline-sol/Weather-App"
     },
+
     { 
       id: 2,
       title: "Character-Gallery",
@@ -24,6 +26,7 @@ export const projects = [
       link: "https://karoline-sol.github.io/Character-Gallery/",
       repo:"https://github.com/karoline-sol/Character-Gallery",
     },
+    
     {
       id: 3,
       title: "Dragon-Realms",
