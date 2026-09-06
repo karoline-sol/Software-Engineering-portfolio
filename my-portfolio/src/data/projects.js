@@ -1,7 +1,7 @@
 import codeCaddyImg from "../assets/codecaddy.jpg"
 import Bloggen from "../assets/Bloggen.jpg"
-import Dragonrealm from "../assets/dragonrealm.jpg"
-import Charactergallery from "../assets/Charactergallery.jpg"
+import MyTasks from "../assets/mytasks1.png"
+import GuestList from "../assets/Guest-List.png"
 
 import weatherApp from "../assets/weather-app2.png"
 import ttc from "../assets/ttc.jpg"
@@ -20,22 +20,22 @@ export const projects = [
 
     { 
       id: 2,
-      title: "Character-Gallery",
-      description: "A JavaScript application allowing users to create and display character cards using localStorage, so characters remain visible even after refreshing the page.",
-      techstack: ["HTML","CSS","Javascript"],
-      image: Charactergallery,
-      link: "https://karoline-sol.github.io/Character-Gallery/",
-      repo:"https://github.com/karoline-sol/Character-Gallery",
+      title: "Task Manager",
+      description: "A responsive task management application that allows users to add, complete, delete, and filter tasks while tracking progress and remaining tasks. Tasks are saved with localStorage so they persist after refreshing the page.",
+      techstack: ["HTML","CSS","Javascript","Localstorage API"],
+      image: MyTasks,
+      link: "https://karoline-sol.github.io/Task-Manager/",
+      repo:"https://github.com/karoline-sol/Task-Manager",
     },
 
     {
       id: 3,
-      title: "Dragon-Realms",
-      description: "Users can create and customize dragons using TypeScript, store them in local storage, and manage their collection through the app.",
-      techstack: ["HTML","CSS","Javascript, Typescript, Localstorage API"],
-      image: Dragonrealm,
-      link: "https://karoline-sol.github.io/Dragon-Realms/",
-      repo:"https://github.com/karoline-sol/Dragon-Realms"
+      title: "Guest-List",
+      description: "A responsive guest management application that allows users to add, search, edit, and delete guests while displaying the total guest count. Guest data is saved with localStorage so the list persists between sessions.",
+      techstack: ["HTML","CSS","Javascript", "Localstorage API"],
+      image: GuestList,
+      link: "https://karoline-sol.github.io/Guest-List-Manager/",
+      repo:"https://github.com/karoline-sol/Guest-List-Manager"
     },
     {
       id: 4,
