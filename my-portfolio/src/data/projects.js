@@ -1,7 +1,9 @@
 import codeCaddyImg from "../assets/codecaddy.jpg"
 import Bloggen from "../assets/Bloggen.jpg"
 import MyTasks from "../assets/mytasks1.png"
+import taskDemo from "../assets/mytaskdemo.mov"
 import GuestList from "../assets/Guest-List.png"
+import guestDemo from "../assets/guestlistdemo.mov"
 
 import weatherApp from "../assets/weather-app2.png"
 import weatherDemo from "../assets/weatherdemo.mov"
@@ -26,6 +28,7 @@ export const projects = [
       description: "A responsive task management application that allows users to add, complete, delete, and filter tasks while tracking progress and remaining tasks. Tasks are saved with localStorage so they persist after refreshing the page.",
       techstack: ["HTML","CSS","Javascript","Localstorage API"],
       image: MyTasks,
+      demo: taskDemo,
       link: "https://karoline-sol.github.io/Task-Manager/",
       repo:"https://github.com/karoline-sol/Task-Manager",
     },
@@ -36,6 +39,7 @@ export const projects = [
       description: "A responsive guest management application that allows users to add, search, edit, and delete guests while displaying the total guest count. Guest data is saved with localStorage so the list persists between sessions.",
       techstack: ["HTML","CSS","Javascript", "Localstorage API"],
       image: GuestList,
+      demo: guestDemo,
       link: "https://karoline-sol.github.io/Guest-List-Manager/",
       repo:"https://github.com/karoline-sol/Guest-List-Manager"
     },
