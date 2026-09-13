@@ -4,6 +4,7 @@ import MyTasks from "../assets/mytasks1.png"
 import GuestList from "../assets/Guest-List.png"
 
 import weatherApp from "../assets/weather-app2.png"
+import weatherDemo from "../assets/weatherdemo.mov"
 import ttc from "../assets/ttc.jpg"
 
 export const projects = [
@@ -14,6 +15,7 @@ export const projects = [
       description: "A weather application that allows users to search for the current weather conditions of any city worldwide, providing real-time data and forecasts.",
       techstack: ["React", "JavaScript", "Tailwind CSS", "Open-Meteo API"],
       image: weatherApp,
+      demo: weatherDemo,
       link: "https://karoline-sol.github.io/Weather-App/",
       repo:"https://github.com/karoline-sol/Weather-App"
     },
