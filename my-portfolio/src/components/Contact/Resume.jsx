@@ -15,13 +15,12 @@ export default function Resume() {
       <section>
         <h2>SUMMARY</h2>
         <p>
-          Ambitious Front-End Developer & UX Designer with strong foundations in JavaScript,
-          TypeScript, React, and scalable UI design. Passionate about building fast, accessible,
-          user‑focused products. Experienced in designing and developing end‑to‑end features,
-          integrating APIs, and improving usability through research‑backed design decisions.
-          Demonstrated ability to learn quickly, build polished interfaces, and solve complex
-          problems—seeking a software engineering Frontend role where I can contribute to impactful
-          products used by millions.
+          Entry-level Front-End Developer with hands-on experience building responsive web applications
+          using JavaScript, TypeScript, React, HTML, and CSS. Experienced in developing interactive
+          interfaces, integrating APIs, creating reusable components, and implementing responsive
+          designs. Background in UX/UI design with an understanding of usability, visual hierarchy, and
+          user-centered design. Seeking a Front-End Developer opportunity to contribute to real-world
+          products while continuing to grow as a software engineer.
         </p>
       </section>
 
