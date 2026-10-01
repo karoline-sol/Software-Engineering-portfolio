@@ -5,6 +5,8 @@ export default function ProjectCard({ title, description, image, demo,link, repo
   const [isHovered, setIsHovered] = useState(false);
   const videoRef = useRef(null);
 
+  const isGif = demo?.toLowerCase().endsWith(".gif");
+
   return (
     <div className="project-card">
      {image && (
@@ -28,17 +30,10 @@ export default function ProjectCard({ title, description, image, demo,link, repo
       alt={title}
       className="project-image"
     />
-
-    {demo && (
-      <video
-        ref={videoRef}
-        src={demo}
-        muted
-        loop
-        playsInline
-        className={`project-demo ${isHovered ? "show" : ""}`}
-      />
-    )}
+   {demo && ( isGif ? ( <img src={demo} alt={`${title} demo`} 
+   className={`project-demo ${isHovered ? "show" : ""}`} /> ) : 
+   ( <video ref={videoRef} src={demo} muted loop playsInline className={`project-demo ${isHovered ? "show" : ""}`} /> ) )}
+  
   </div>
 )}
       <div className="project-content">

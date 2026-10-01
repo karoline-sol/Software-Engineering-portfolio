@@ -3,6 +3,7 @@ import MyTasks from "../assets/mytasks1.png"
 import taskDemo from "../assets/mytaskdemo.mov"
 import GuestList from "../assets/Guest-List.png"
 import guestDemo from "../assets/guestlistdemo.mov"
+import ttcDemo from "../assets/demo.gif"
 
 import weatherApp from "../assets/weather-app2.png"
 import weatherDemo from "../assets/weatherdemo.mov"
@@ -71,6 +72,7 @@ export const projects = [
       description: "A sleek and responsive React + TypeScript transportation booking app built for a luxury town car service. ",
       techstack: ["React(Typescript)","Vite","Tailwind", "React router DOM" ],
       image: ttc,
+      demo: ttcDemo,
       link: "https://karoline-sol.github.io/Tiffany-Town-Car/",
       repo: "https://github.com/karoline-sol/Tiffany-Town-Car",
       

@@ -110,8 +110,11 @@
   height: 100%;
   object-fit: contain;
   object-position: center top;
+  background: white;
+  display: block;
   opacity: 0;
   transition: opacity 0.3s ease;
+  z-index: 2;
 }
 
 .project-demo.show {
