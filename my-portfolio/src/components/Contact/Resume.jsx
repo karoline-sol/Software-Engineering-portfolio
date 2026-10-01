@@ -27,9 +27,10 @@ export default function Resume() {
       <section>
         <h2>TECHNICAL SKILLS</h2>
         <ul>
-          <li><strong>Front-End:</strong> HTML · CSS · JavaScript · React · React-TypeScript · TypeScript · APIs · Responsive Design</li>
-          <li><strong>UX/UI:</strong> Figma · Wireframing · Prototyping · User Flows · Visual Design · Design Psychology · Usability Testing</li>
-          <li><strong>Tools:</strong> Git/GitHub · Whimsical · OpenAI API · Figma</li>
+          <li><strong>Languages</strong> HTML · CSS · JavaScript · TypeScript </li>
+          <li><strong>Frameworks & Libraries</strong> React · React Typescript · Tailwind CSS</li>
+          <li><strong>Development</strong> Responsive Design · API Integration · Form Validation · LocalStorage · Component-Based Architecture</li>
+          <li><strong>Tools:</strong> Git/GitHub · Vite · OpenAI API · Figma</li>
         </ul>
       </section>
 
@@ -39,65 +40,77 @@ export default function Resume() {
         <div className="project">
           <h3>Tiffany Town Car (React + TypeScript)</h3>
           <ul>
-            <li>Built a responsive multi-step booking form with reusable component architecture.</li>
-            <li>Simplified onboarding with validation rules and guided workflows.</li>
-            <li>Implemented mobile-first design for accessibility and faster task completion.</li>
+            <li>Developed a responsive transportation booking interface using React and TypeScript.</li>
+            <li>Built a multi-step booking form with reusable components, input validation, and guided
+             user workflows.</li>
+            <li>Implemented mobile-first responsive layouts across desktop and mobile screen sizes.</li>
+            <i>Applied UX/UI principles to simplify navigation and create a clear booking experience.</i>
           </ul>
         </div>
 
         <div className="project">
-          <h3>Rune-of-Chance (JavaScript Web Game)</h3>
+          <h3>Weather App (React + Vite)</h3>
           <ul>
-            <li>Engineered modular JavaScript game functions for smoother UI interactions.</li>
-            <li>Improved engagement with dynamic UI updates and animated game states.</li>
-            <li>Streamlined game logic and reduced repeated functions.</li>
+            <li>Built a responsive weather application using React, Vite, and Tailwind CSS.</li>
+            <li>Integrated the Open-Meteo Geocoding and Forecast APIs to retrieve location-based
+             weather data.</li>
+            <li>Implemented city search functionality and dynamic weather displays based on API
+            responses.</li>
+            <i>Designed a clean interface that adapts to desktop and mobile screen sizes.</i>
           </ul>
         </div>
 
         <div className="project">
-          <h3>Character-Gallery (JavaScript + LocalStorage)</h3>
+          <h3>Task Manager (React)</h3>
           <ul>
-            <li>Developed persistent character system using LocalStorage.</li>
-            <li>Enhanced form validation for improved accuracy.</li>
-            <li>Designed clean and organized UI for readability.</li>
+            <li>Developed a task management application using React.</li>
+            <li>Implemented functionality for adding, editing, completing, and removing tasks.</li>
+            <i>Used component-based architecture to create reusable and maintainable interface
+             elements.</i>
+            <li>Designed a responsive layout focused on clear task organization and usability.</li>
           </ul>
         </div>
 
         <div className="project">
-          <h3>Dragon-Realms (TypeScript App)</h3>
+          <h3>Expense Tracker (React)</h3>
           <ul>
-            <li>Built structured TypeScript system using interfaces and strong typing.</li>
-            <li>Reduced errors with clear data models and validation.</li>
-            <li>Designed responsive UI for desktop and mobile.</li>
+            <li>Built an interactive expense-tracking application using React to record and organize
+             financial transactions.</li>
+            <li>Implemented functionality for adding, editing, and deleting expenses.</li>
+            <li>Created dynamic calculations to display spending totals and transaction summaries.</li>
+            <li>Designed a responsive interface focused on clear organization and usability.</li>
           </ul>
         </div>
 
         <div className="project">
-          <h3>Blog-Generator (Node.js + EJS + Markdown)</h3>
+          <h3>Guest List (Javascript)</h3>
           <ul>
-            <li>Automated static-page creation with Node.js scripting.</li>
-            <li>Used templating for consistent branding and UI.</li>
-            <li>Improved workflow by converting Markdown to styled HTML.</li>
+            <li>Built an interactive guest-list application using JavaScript, HTML, and CSS.</li>
+            <li>Implemented functionality for adding, displaying, and removing guest entries.</li>
+            <li>Applied DOM manipulation and event handling to create a dynamic user experience.</li>
+            <li>Designed a responsive interface focused on organized information and ease of use.</li>
           </ul>
         </div>
 
-        <div className="project">
-          <h3>CodeCaddy (React + Google Books API)</h3>
-          <ul>
-            <li>Integrated Google Books API for real-time search and detailed views.</li>
-            <li>Optimized data fetching and reduced load times.</li>
-            <li>Designed clean search UI to improve discoverability.</li>
-          </ul>
-        </div>
       </section>
 
       <section>
         <h2>EXPERIENCE</h2>
-        <h3>Freelance UX/UI Designer — Orlando, FL (Dec 2023 – Present)</h3>
+        <h3>UX/UI Design Projects — Orlando, FL (Dec 2023 – Present)</h3>
         <ul>
           <li>Designed logos and responsive interfaces for startups such as Tiffany Town Car & Aiquilibrio.</li>
           <li>Created user flows, wireframes, and prototypes improving task clarity.</li>
           <li>Delivered polished UI components and HTML/CSS layouts with accessibility best practices.</li>
+        </ul>
+
+        <h3>Teacher (May 2021 - Present)</h3>
+        <ul>
+          <li>Adapted quickly to new tools, systems, and environments while managing multiple
+           priorities and deadlines.</li>
+         <li> Used technology and digital tools to create organized, interactive, and user-friendly
+           learning experiences.</li>
+         <li>Developed strong problem-solving, communication, organization, and attention-to-detail
+ f          skills.</li>
         </ul>
       </section>
 
@@ -107,8 +120,9 @@ export default function Resume() {
         <p>Front-end development: HTML, CSS, JavaScript, React, TypeScript, APIs, Node basics.</p>
         
 
-        <h3>UX/UI Design Certification — Entry Level (Nov 2023 – Jan 2024)</h3>
-        <p>UX fundamentals, research, prototyping, UI design, typography.</p>
+        <h3>UX/UI Design Certification — (Nov 2023 – Jan 2024)</h3>
+        <p>Studied UX fundamentals, user research, design psychology, wireframing, prototyping,
+         typography, and mobile/web UI design.</p>
         <p>
             UX Portfolio:{" "}
          <a
