@@ -26,7 +26,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/carolinesoliman/"
+            href="https://www.linkedin.com/in/caroline-soliman/"
             className="contact-link"
             target="_blank"
             rel="noopener noreferrer"
