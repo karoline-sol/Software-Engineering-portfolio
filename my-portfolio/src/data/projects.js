@@ -1,5 +1,4 @@
-import codeCaddyImg from "../assets/codecaddy.jpg"
-import Bloggen from "../assets/Bloggen.jpg"
+import comingSoon from "../assets/comingsoon.jpg"
 import MyTasks from "../assets/mytasks1.png"
 import taskDemo from "../assets/mytaskdemo.mov"
 import GuestList from "../assets/Guest-List.png"
@@ -45,22 +44,24 @@ export const projects = [
     },
     {
       id: 4,
-      title: "Blog-Generator",
-      description: "A static blog generator built with Node.js, EJS, and Markdown. It reads Markdown files from your content folder, converts them into HTML, and outputs a complete static website automatically.",
-      techstack: ["HTML","CSS","Javascript, Node.js, EJS, Markeddown to HTML converter, Grunt"],
-      image: Bloggen,
-      link: "https://karoline-sol.github.io/Blog-Generator/",
-      repo:"https://github.com/karoline-sol/Blog-Generator"
+      title: "Expense Tracker",
+      description: "An interactive expense-tracking application that allows users to record and organize their financial transactions.",
+      techstack: ["HTML","CSS","React","Javascript", "Localstorage API"],
+      image: comingSoon,
+      link: " ",
+      repo:" ",
+      status: "Coming soon"
     },
 
     {
       id: 5,
-      title: "CodeCaddy",
-      description: "a project that integrates Google Books API into a JavaScript or React application that allows users to search for books, view details by ID, and test API connectivity.",
-      techstack: ["React(Typescript)","Vite","Tailwind CSS","React Router", "Context API", "OpenAI API"],
-      image: codeCaddyImg,
-      link: "https://karoline-sol.github.io/Codecaddy/",
-      repo: "https://github.com/karoline-sol/Codecaddy",
+      title: "Sweet & Savory",
+      description: "A responsive booking application designed for Sweet & Savory Cart Co. to help customers explore catering options, select event details, and submit booking inquiries through a streamlined workflow.",
+      techstack: ["React","Typescript","Tailwind CSS","Vite", "Form Validation"],
+      image: comingSoon,
+      link: " ",
+      repo: " ",
+      status: "Coming soon"
       
     },
 
