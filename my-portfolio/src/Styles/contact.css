@@ -71,13 +71,34 @@
 /* Responsive for smaller screens */
 @media (max-width: 768px) {
   .contact {
-    padding: 2rem;
+    min-height: auto;
+    padding: 4rem 1.5rem 5rem;
     justify-content: center;
     text-align: center;
   }
 
   .contact-container {
     width: 100%;
+    max-width: 600px;
   }
+
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-links {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 12px;
+  }
+
 }
 
