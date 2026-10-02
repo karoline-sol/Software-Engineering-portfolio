@@ -123,7 +123,8 @@
 
 @media (max-width: 768px) {
   .project-content a {
-    margin-right: 0;
-    margin-bottom: 12px;
+   display: block;
+   width: fit-content;
+   margin: 0 auto 12px;
   }
 }
