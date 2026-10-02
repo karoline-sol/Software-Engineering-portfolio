@@ -99,8 +99,28 @@ input:checked + .slider:before {
  }
 
  .header-container {
-  display: flex;
-  justify-content: space-between;
- }
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 8px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .nav ul {
+    gap: 0.7rem;
+    margin-right: 10px;
+    padding: 10px 5px;
+  }
+
+  .switch {
+    flex-shrink: 0;
+    margin-left: 0;
+  }
+ 
 }
 
