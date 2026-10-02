@@ -122,16 +122,8 @@
 }
 
 @media (max-width: 768px) {
-  .projects-grid {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 1rem;
-    margin: 20px;
-  }
-
-  .project-card {
-    width: 90%;
-    height: auto;
+  .project-content a {
+    margin-right: 0;
+    margin-bottom: 12px;
   }
 }
