@@ -97,5 +97,10 @@ input:checked + .slider:before {
  .footer p {
   font-size: smaller;
  }
+
+ .header-container {
+  display: flex;
+  justify-content: space-between;
+ }
 }
 

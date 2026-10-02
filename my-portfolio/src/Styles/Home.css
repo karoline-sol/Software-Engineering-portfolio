@@ -96,3 +96,25 @@ body[data-theme="dark"] .profile-img img {
   border-color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    
+
+    .intro {
+        margin-bottom: 2rem;
+        
+    }
+
+    .profile-img {
+        order: -1;
+    }
+
+    
+    }
+
+
