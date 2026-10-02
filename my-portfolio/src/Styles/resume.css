@@ -63,4 +63,10 @@ a:hover {
   color: #0044cc;
 }
 
+@media screen and (max-width: 768px) {
+  .resume-container {
+    padding: 20px;
+    margin: 18px;
+  }
 
+}
